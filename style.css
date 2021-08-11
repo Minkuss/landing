@@ -1,0 +1,531 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main_navigation {
+    width: 100%;
+    height: 90px;
+    background-color: #202020;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main_navigation-title {
+    width: 153.33px;
+    height: 13.24px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11.1515px;
+    line-height: 13px;
+    letter-spacing: 0.3em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding-top: 41.55px;
+    margin-left: 13.94px;
+}
+
+.main_navigation-btn {
+    border: none;
+    background: none;
+    width: 166px;
+    height: 47px;
+    border: 1px solid #FF834E;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FF834E;
+    margin-top: 22px;
+    cursor: pointer;
+}
+
+.main_navigation-btn:hover {
+    border-style: dashed;
+}
+
+.main_navigation-number {
+    width: 132px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    padding-top: 34px;
+    margin-left: 30px;
+}
+
+.main_navigation-list {
+    width: 598px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 36px;
+}
+
+.main_navigation-listSubject {
+    height: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.main_navigation-logo {
+    padding-top: 29px;
+}
+
+.main_navigation-logoBlock {
+    display: flex;
+}
+
+.main_navigation-btnBlock {
+    display: flex;
+}
+
+.header_main {
+    margin: 0;
+    padding: 0;
+    height: 1216px;
+    width: 100%;
+}
+
+.header_main-bg {
+    position: absolute;
+    z-index: -2;
+}
+
+.header_main-image_bg {
+    position: absolute;
+    z-index: -1;
+    left: 1121px;
+    top: 0;
+    top: 170px;
+}
+
+.header_main-image_main {
+    position: absolute;
+    top: 0;
+    left: 1095px;
+    top: 190px;
+}
+
+.header_main-link_a {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22.6667px;
+    line-height: 28px;
+    color: #FF834E;
+    text-decoration: none;
+    padding-left: 12.11px;
+}
+
+.header_main-link {
+    width: 182.11px;
+    height: 34px;
+}
+
+.header_main-information_h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 70px;
+    color: #FFFFFF;
+}
+
+.header_main-information_p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding-top: 30px;
+}
+
+.header_main-Button_p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    font-variant: small-caps;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+}
+
+.header_main-Button_btn-p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding-left: 20px;
+}
+
+.header_main-Button_btn {
+    width: 329px;
+    height: 65px;
+    display: flex;
+    border: none;
+    background: none;
+    background: #FF834E;
+    box-shadow: 0px 5px 10px rgba(239, 139, 84, 0.2);
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s linear;
+}
+
+.header_main-Button_btn:hover {
+    background: #FB986D;
+}
+
+.header_main-Button_btn:active {
+    box-shadow: 0px 5px 500px rgba(239, 139, 84, 0.2);
+    transition: none;
+}
+
+.header_main-Button_btn-div {
+    width: 62px;
+    height: 65px;
+    background: #DE774B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_main-link {
+    padding-top: 290px;
+    padding-left: 256px;
+}
+
+.header_main-information {
+    padding-top: 20px;
+    padding-left: 256px;
+}
+
+.header_main-Button {
+    padding-left: 256px;
+    padding-top: 235px;
+}
+
+main {
+    position: relative;
+    bottom: 156px;
+}
+
+.main_information {
+    background: #171718;
+    background-image: url(images/Blume\ BG.png);
+    background-size: cover;
+    width: 100%;
+    height: 1060px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_information-map {
+    width: 1394px;
+    height: 667px;
+    margin-top: 160px;
+}
+
+.main_information-h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.listItem_Ellipse {
+    width: 180px;
+    height: 180px;
+    background-color: #1D1D1D;
+    box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    transition: 1s linear;
+    z-index: 1;
+    position: relative;
+    background-image: url(images/consulation-white.svg);
+    background-repeat: no-repeat;
+    background-size: 75px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.listItem_h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 118px;
+    line-height: 144px;
+    color: #FFFFFF;
+    opacity: 0.1;
+    position: absolute;
+    z-index: 0;
+    margin-left: 88px;
+    top: 150px;
+    transition: 1s linear;
+}
+
+.card {
+    width: 180px;
+    height: 180px;
+}
+
+.card:hover .listItem_Ellipse {
+    background-color: white;
+    background-image: url(images/consulation-black.svg);
+}
+
+.card:hover .listItem_h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 118px;
+    line-height: 144px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #EF8B54;
+    text-shadow: 5px 5px 5px rgba(239, 139, 84, 0.15);
+    opacity: 1;
+}
+
+.super_main {
+    background-image: url(images/Path.png);
+    background-size: cover;
+    height: 509px;
+    width: 1398px;
+}
+
+.listItem_p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.card_props {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.listItem_btn {
+    background: none;
+    border: none;
+    color: white;
+    background: #EF8B54;
+    border: 1px solid #F1F1F1;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 4px rgba(239, 139, 84, 0.3);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.main_information-map_list {
+    display: flex;
+    height: 50%;
+    width: 60%;
+    margin-left: 336px;
+    padding-top: 45px;
+    flex-wrap: wrap;
+}
+
+.card:nth-of-type(2) {
+    margin-left: 87px;
+}
+
+.card:nth-of-type(3) {
+    margin-left: 87px;
+}
+
+.card:nth-of-type(4) {
+    margin-top: 170px;
+}
+
+.card:nth-of-type(5) {
+    margin-top: 170px;
+    margin-left: 87px;
+}
+
+.card:nth-of-type(6) {
+    margin-top: 170px;
+    margin-left: 87px;
+}
+
+.card:nth-of-type(4) .listItem_h1 {
+    top: 500px;
+}
+
+.card:nth-of-type(5) .listItem_h1 {
+    top: 500px;
+}
+
+.card:nth-of-type(6) .listItem_h1 {
+    top: 500px;
+}
+
+.card:nth-of-type(2) .listItem_p {
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.card:nth-of-type(3) .listItem_p {
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.card:nth-of-type(4) .listItem_p {
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.card:nth-of-type(5) .listItem_p {
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.card:nth-of-type(6) .listItem_p {
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.card:nth-of-type(2) .listItem_Ellipse {
+    background-image: url(images/smm-white.svg);
+}
+
+.card:nth-of-type(2) .listItem_Ellipse:hover {
+    background-image: url(images/smm-black.svg);
+}
+
+.card:nth-of-type(3) .listItem_Ellipse {
+    background-image: url(images/design-white.svg);
+}
+
+.card:nth-of-type(3) .listItem_Ellipse:hover {
+    background-image: url(images/design-black.svg);
+}
+
+.card:nth-of-type(4) .listItem_Ellipse {
+    background-image: url(images/complex-white.svg);
+}
+
+.card:nth-of-type(4) .listItem_Ellipse:hover {
+    background-image: url(images/complex-black.svg);
+}
+
+.card:nth-of-type(5) .listItem_Ellipse {
+    background-image: url(images/people-white.svg);
+}
+
+.card:nth-of-type(5) .listItem_Ellipse:hover {
+    background-image: url(images/people-black.svg);
+}
+
+.card:nth-of-type(6) .listItem_Ellipse {
+    background-image: url(images/add-white.svg);
+}
+
+.card:nth-of-type(6) .listItem_Ellipse:hover {
+    background-image: url(images/add-black.svg);
+}
+
+
+/* 
+body {
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+} */
+
+.main_information-map_popup {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup_menu {
+    width: 694px;
+    height: 408px;
+    background: #262626;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.map_popup-close {
+    position: absolute;
+    left: 0;
+    top: 0;
+    left: 1304px;
+    top: 230px;
+}
+
+.map_popup-content {
+    width: 588px;
+    height: 285px;
+}
+
+.map_popup-h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 41px;
+    color: #FFFFFF;
+}
+
+.map_popup-p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
